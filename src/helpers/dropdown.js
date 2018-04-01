@@ -1,0 +1,76 @@
+export const getUnidadesMedida = () => [
+  { text: 'Kilo', value: 1 },
+  { text: 'Tonelada', value: 2 },
+  { text: 'Metro', value: 3 },
+  { text: 'Metro²', value: 4 },
+  { text: 'Metro³', value: 5 },
+  { text: 'Unidade', value: 6 },
+  { text: 'Saco', value: 7 },
+  { text: 'Resma', value: 8 },
+  { text: 'Fardo', value: 9 },
+  { text: 'Peça', value: 10 },
+  { text: 'Pacote', value: 11 },
+  { text: 'Rolo', value: 12 },
+  { text: 'Litro', value: 13 },
+  { text: 'Hora', value: 14 },
+  { text: 'Galão', value: 15 }
+]
+
+export const getTiposProjeto = () => [
+  { text: 'Hidráulica', value: 1 },
+  { text: 'Elétrica', value: 2 },
+  { text: 'Carpintaria', value: 3 },
+  { text: 'Armação', value: 4 },
+  { text: 'Alvenaria', value: 5 },
+  { text: 'Segurança', value: 6 },
+  { text: 'Obra', value: 7 },
+  { text: 'Limpeza', value: 8 },
+  { text: 'Higiene', value: 9 },
+  { text: 'Alimentação', value: 10 },
+  { text: 'Café/Lanche', value: 11 },
+  { text: 'Almoxerifado', value: 12 },
+  { text: 'Escritório/Administração', value: 13 },
+  { text: 'Concretagem', value: 14 },
+  { text: 'Manutenção/Consertos', value: 15 },
+  { text: 'Equipamentos Locados', value: 16 },
+  { text: 'Outros', value: 17 },
+]
+
+export const getAplicacoes = () => [
+  { text: 'Câmara Fria', value: 1 },
+  { text: 'Área de Convivência', value: 2 },
+  { text: 'Recebimento Mercadoria', value: 3 },
+  { text: 'Doca', value: 4 },
+  { text: 'Loja', value: 5 },
+  { text: 'Tubulações', value: 6 }
+]
+
+export const getUF = () => [
+  { value: "AC", text: "Acre" },
+  { value: "AL", text: "Alagoas" },
+  { value: "AM", text: "Amazonas" },
+  { value: "AP", text: "Amapá" },
+  { value: "BA", text: "Bahia" },
+  { value: "CE", text: "Ceará" },
+  { value: "DF", text: "Distrito Federal" },
+  { value: "ES", text: "Espírito Santo" },
+  { value: "GO", text: "Goiás" },
+  { value: "MA", text: "Maranhão" },
+  { value: "MG", text: "Minas Gerais" },
+  { value: "MS", text: "Mato Grosso do Sul" },
+  { value: "MT", text: "Mato Grosso" },
+  { value: "PA", text: "Pará" },
+  { value: "PB", text: "Paraíba" },
+  { value: "PE", text: "Pernambuco" },
+  { value: "PI", text: "Piauí" },
+  { value: "PR", text: "Paraná" },
+  { value: "RJ", text: "Rio de Janeiro" },
+  { value: "RN", text: "Rio Grande do Norte" },
+  { value: "RO", text: "Rondônia" },
+  { value: "RR", text: "Roraima" },
+  { value: "RS", text: "Rio Grande do Sul" },
+  { value: "SC", text: "Santa Catarina" },
+  { value: "SE", text: "Sergipe" },
+  { value: "SP", text: "São Paulo" },
+  { value: "TO", text: "Tocantins" }
+]

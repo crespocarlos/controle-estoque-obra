@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+}
+body {
+  position: relative;
+}
+
+.ui.modal {
+  position: fixed !important;
+  top: 50% !important;
+  left: 25% !important;
+
+}
