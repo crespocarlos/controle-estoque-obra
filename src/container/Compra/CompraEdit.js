@@ -12,12 +12,6 @@ class CompraEdit extends Component {
     router: PropTypes.object
   }
 
-  componentWillMount() {
-    if (this.props.match.params['id'] === undefined) {
-      this.context.router.history.replace('/404')
-    }
-
-  }
   componentDidMount() {
     if (this.props.match.params['id'] !== undefined) {
       this.props.fetchCompra(this.props.match.params.id)
